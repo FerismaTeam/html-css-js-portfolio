@@ -58,7 +58,8 @@ section{
     margin-bottom: 0;
 }
 article{
-    font-size: 1rem;  
+    font-size: 1rem; 
+    text-align: center;
 }
 .article-container{
     width: fit-content;
@@ -104,4 +105,7 @@ footer nav{
 .text-container{
     text-align:center;
 }
+.icon-checkmark{
+    position: absolute;
+    margin-right: 289px;}
 }

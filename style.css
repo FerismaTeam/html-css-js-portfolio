@@ -211,6 +211,11 @@ section {
     height: 2rem;
 
 }
+.icon-checkmark{
+    cursor: pointer;
+    height: 2rem;
+
+}
 
 /* Buttons */
 
