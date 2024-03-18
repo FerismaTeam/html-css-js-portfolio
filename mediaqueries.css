@@ -5,7 +5,7 @@
     }
     .about-containers {
         flex-wrap: wrap;
-        width: 370px;
+        
     }
 }
 
@@ -33,7 +33,8 @@ section,
 .section-container{
     height: fit-content;
 }
-section{margin: 0 5%;
+section{
+    margin: 0 5%;
 }
 .section__pic-container{
     width: 275px;
@@ -49,7 +50,7 @@ section{margin: 0 5%;
 }
 
 @media screen and (max-width: 600px) {
-#contact, footer{
+   #contact, footer {
     height: 40vh;
 }
 #profile{
@@ -69,8 +70,7 @@ footer nav{
 .about-containers,
 .contact-info-upper-container,
 .btn-container{
-    flex-wrap: wrap;
-     
+    flex-wrap: wrap;    
 }
 .contact-info-container{
     margin: 0;
