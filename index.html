@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css"> 
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Ismail Boyaci</div>
+    <div>
+       <ul class="nav-links">
+        <li><a href="#about">Über mich</a></li>
+        <li><a href="#experience">Erfahrung</a></li>
+        <li><a href="#projects">Projekte</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+       </ul> 
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Ismail Boyaci</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links">
+       <li><a href="#about" onclick="toggleMenu()">Über mich .</a></li>
+       <li><a href="#experience" onclick="toggleMenu()">Erfahrung</a></li>
+       <li><a href="#projects" onclick="toggleMenu()">Projekte</a></li>
+       <li><a href="#contact" onclick="toggleMenu()">Kontakt</a></li>
+    </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+        <img src="./assets/Fer (Logo) (2).png" alt="Ismail Boyaci´s logo">
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Hey ich bin</p>
+        <h1 class="title">Ismail Boyaci</h1>
+        <p class="section__text__p2">Fachinformatiker für Anwendungsentwicklung</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/Mein Lebenslauf.pdf')">Lebenslauf herunterladen</button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">Kontakt Info</button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/instagramicon.png" alt="Mein Instagram"
+          class="icon" onclick="location.href='https://www.instagram.com/ferismateam/'"/>
+          <img src="./assets/Tiktokicon.png" alt="Mein TikTok"
+          class="icon" onclick="location.href='https://www.tiktok.com/@ferismateam'"/>
+       </div>
+     </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Mehr erfahren</p>
+    <h1 class="title">Über mich</h1>
+    <div class="section-container">
+      <!-- <div class="section__pic-container">
+        <img src="./assets/about-pic.png" alt="Profil Bild"  class="about-pic"/>
+      </div> -->
+      <div class="about-details-container">
+        <div class="about-containers">
+        <div class="details-container">
+          <img src="./assets/experience.png" alt="experience icon"
+          class="icon"/>
+          <h3>Erfahrung</h3>
+          <p>2+ Jahre <br>Anwendungsentwicklung</p>
+        </div> ,
+        <div class="details-container">
+          <img src="./assets/education.png" alt="education icon"
+          class="icon"/>
+          <h3>Abschluss</h3>
+          <p>2,3 Schnitt<br  />Externer Qualifizierender Hauptschulabschluss</p>
+        </div>
+       </div>
+       <div class="text-container">
+        <p>Nach Abschluss des externen Qualifizierenden Abschlusses an der Realschule habe ich frühzeitig meine Leidenschaft für die Webentwicklung entdeckt und mich aktiv in praktische Projekte eingebunden. <br>Durch den Aufbau von Websites für Freunde und Kunden, die sich über mein Instagram-Profil an mich gewandt haben, habe ich wertvolle Erfahrungen gesammelt und meine Fähigkeiten in diesem Bereich kontinuierlich verbessert.
+
+          In meiner Arbeit als selbstständiger Webentwickler habe ich nicht nur technische Fähigkeiten erworben, sondern auch wichtige Soft Skills wie Kommunikation, Kundenorientierung und Problemlösungskompetenz entwickelt.<br> Ich habe gelernt, die Bedürfnisse und Vorstellungen meiner Kunden zu verstehen und maßgeschneiderte Lösungen zu entwickeln, um ihre Ziele zu erreichen.
+          
+          Mein Streben nach Exzellenz und kontinuierlicher Weiterentwicklung treibt mich dazu an, meine Fähigkeiten ständig zu erweitern und mich neuen Herausforderungen zu stellen. <br>Ich bin bereit, mein Engagement und meine Begeisterung für die Webentwicklung in einem professionellen Umfeld einzubringen und meinen Beitrag zum Erfolg eines Teams zu leisten</p>
+       </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+    onclick="location.href='./#experience'"/>
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Entdecken Sie meine</p>
+    <h1 class="title">Erfahrungen</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+<h2 class="experience-sub-title">Über selbstgemacht Websites</h2>
+<div class="article-container">
+  <article>
+    <img src="./assets/checkmark.png" alt="experience icon"
+    class="icon"/>
+    <div>
+      <h3>HTML</h3>
+      <p>Erfahren</p>
+    </div>
+  </article>
+  <article>
+    <img src="./assets/checkmark.png" alt="experience icon"
+    class="icon"/>
+    <div>
+      <h3>CSS</h3>
+      <p>Erfahren</p>
+    </div>
+  </article>
+  <article>
+    <img src="./assets/checkmark.png" alt="experience icon"
+    class="icon"/>
+    <div>
+      <h3>Selbstständig arbeiten</h3>
+      <p>Erfahren</p>
+    </div>
+  </article>
+  <article>
+    <img src="./assets/checkmark.png" alt="experience icon"
+    class="icon"/>
+    <div>
+      <h3>JavaScript</h3>
+      <p>Grundbausteine</p>
+    </div>
+  </article>
+  <article>
+    <img src="./assets/checkmark.png" alt="experience icon"
+    class="icon"/>
+    <div>
+      <h3>TypeScript</h3>
+      <p>Grundbausteine</p>
+    </div>
+  </article>
+  <article>
+    <img src="./assets/checkmark.png" alt="experience icon"
+    class="icon"/>
+    <div>
+      <h3>App kompatibilität</h3>
+      <p>Erfahren</p>
+    </div>
+  </article>
+</div>
+
+        </div>
+        <div class="details-container">
+<h2 class="experience-sub-title">Von anderen Websites</h2>
+<div class="article-container">
+  <article>
+    <img src="./assets/checkmark.png" alt="experience icon"
+    class="icon"/>
+    <div>
+      <h3>Fehlersuche</h3>
+      <p>Erfahren</p>
+    </div>
+  </article>
+  <article>
+    <img src="./assets/checkmark.png" alt="experience icon"
+    class="icon"/>
+    <div>
+      <h3>Custom Function</h3>
+      <p>Erfahren</p>
+    </div>
+  </article>
+  <article>
+    <img src="./assets/checkmark.png" alt="experience icon"
+    class="icon"/>
+    <div>
+      <h3>Ausrichtung der Bestandteile</h3>
+      <p>Erfahren</p>
+    </div>
+  </article>
+  <article>
+    <img src="./assets/checkmark.png" alt="experience icon"
+    class="icon"/>
+    <div>
+      <h3>Umcodieren</h3>
+      <p>Erfahren</p>
+    </div>
+  </article>
+  <article>
+    <img src="./assets/checkmark.png" alt="experience icon"
+    class="icon"/>
+    <div>
+      <h3>Verschönern</h3>
+      <p>Erfahren</p>
+    </div>
+  </article>
+  <article>
+    <img src="./assets/checkmark.png" alt="experience icon"
+    class="icon"/>
+    <div>
+      <h3>Neue Features</h3>
+      <p>Erfahren</p>
+    </div>
+  </article>
+</div>
+
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+    onclick="location.href='./#experience'"/>
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Erkundigen sie meine neuen</p>
+    <h1 class="title">Projekte</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+    <div class="details-container color-container">
+    <div class="article-container">
+      <img src="./assets/candylux.titel.png" alt="Projekt 1" class="project-img">
+    </div>
+    <h2 class="experience-sub-title project-title">Projekt Eins</h2>
+    <div class="btn-container">
+      <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.candylux.de/'">
+      Zum Beitrag</button>
+      <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.candylux.de/'">
+        Zur Website</button>
+        
+    </div>
+    </div>
+    <div class="details-container color-container">
+    <div class="article-container">
+      <img src="./assets/Jumeau.titel.jpg" alt="Projekt 2" class="project-img">
+    </div>
+    <h2 class="experience-sub-title project-title">Projekt Zwei</h2>
+    <div class="btn-container">
+      <button class="btn btn-color-2 project-btn" onclick="location.href='https://jumeau.shop/'">
+      Zum Beitrag</button>
+      <button class="btn btn-color-2 project-btn" onclick="location.href='https://jumeau.shop/'">
+        Zur Website</button>
+    </div>
+    <p class="nebentext">Mit Passwort betreten(Passwort=1)</p>
+    </div>
+    <div class="details-container color-container">
+    <div class="article-container">
+      <img src="./assets/Qamer edit.png" alt="Projekt 3" class="project-img">
+    </div>
+    <h2 class="experience-sub-title project-title">Projekt Drei</h2>
+    <div class="btn-container">
+      <button class="btn btn-color-2 project-btn" onclick="location.href='https://qamer.de/'">
+      Zum Beitrag</button>
+      <button class="btn btn-color-2 project-btn" onclick="location.href='https://qamer.de/'">
+      Zur Website</button>
+    </div>
+    <p class="nebentext">Mobile optimiziert</p>
+    </div>
+    </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+    onclick="location.href='./#experience'"/>
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Kontaktieren Sie mich</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon"/>
+        <p><a href="mailto:ferismateam@gmail.com">E-mail</a></p> 
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/whatsappicon.png" alt="linkedin icon" class="icon contact-icon"/>
+        <p><a href="https://wa.me/+4917657955795">Whatsapp</a></p>
+      </div>
+     </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">Über mich</a></li>
+          <li><a href="#experience">Erfahrung</a></li>
+          <li><a href="#projects">Projekte</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+         </ul> 
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Ismail Boyaci. Alle Rechte vorbehalten</p>
+  </footer>
+<script src="script.js"></script>  
+</body>,
+</html>
